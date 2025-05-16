@@ -39,7 +39,7 @@ export class PortainerApi {
       password
     })
     this.axiosInstance.defaults.headers.common['Authorization'] = `Bearer ${data.jwt}`
-    this.axiosInstance.defaults.headers.common['X-Registry-Auth'] = `eyJyZWdpc3RyeUlkIjoyfQ==`
+    this.axiosInstance.defaults.headers.common['X-Registry-Auth'] = `eyJyZWdpc3RyeUlkIjoxfQ==`
   }
 
   async logout(): Promise<void> {
